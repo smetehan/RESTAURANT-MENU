@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images5.alphacoders.com/656/thumb-1920-656041.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.title-menu {
+  font-family: "Smokum", cursive;
+  font-size: 4rem;
+}
+.img-menu {
+  width: 70%;
+  height: 28vh;
+  box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  margin-top: 1rem;
+}
+
+.div-btn {
+  display: flex;
+
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.div-btn .btn-edit-add {
+  width: 3rem;
+  height: 2rem;
+  background-color: green;
+  color: white;
+}
+
+.div-btn .btn-edit-add:hover {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+.btn-edit-del {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  color: white;
+}
+.btn-edit-del:hover {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+
+.menu-yazi {
+  text-align: center;
+}
+.btn-masa {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.91);
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  font-size: 2rem;
+  font-family: "Climate Crisis", cursive;
+}
+
+.title-masa {
+  margin-bottom: 3rem;
+  font-family: "Climate Crisis", cursive;
+}
+
+.kasa-hesap {
+  display: flex;
+
+  gap: 1rem;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  margin-top: 1.5rem;
+  background-color: wheat;
+}
+
+.kasa-img {
+  width: 28%;
+  height: 9vh;
+}
+.kasa-masa-no {
+  width: 38.66%;
+}
+.kasa-baslik {
+  width: 33.33%;
+}
+.btn-div {
+  display: flex;
+  gap: 5rem;
+}
+.toplam-div {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* height: 10vh; */
+  border: 1px solid black;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.btn-kasa-hesap {
+  width: 50%;
+  height: 5vh;
+  margin-top: 1rem;
+}
+
+.sepet-menu {
+  display: flex;
+  gap: 3rem;
+  height: 7.3vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: wheat;
+  box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(190, 173, 173, 0.91);
+}
+.sepet-menu-div {
+  width: 33.33%;
+
+  color: whitesmoke;
+  margin-top: 2rem;
+}
+.menu-read {
+  color: wheat;
+  text-align: center;
+}
+.masa-sec-div {
+  cursor: pointer;
+
+  margin-top: 10rem;
+}
+.masa-sec {
+  height: 10vh;
+  box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  font-size: 1.8rem;
+  font-family: "Climate Crisis", cursive;
+  cursor: pointer;
+}
+.masa-sec-cikis {
+  height: 10vh;
+  box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(0, 0, 0, 0.91);
+  font-size: 1.8rem;
+  font-family: "Climate Crisis", cursive;
+  cursor: pointer;
+  margin-top: 3rem;
+  color: white;
+}
+.masa-sec-baslik {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: "Climate Crisis", cursive;
+}
+
+.siralama {
+  margin-top: 1.5rem;
+  box-shadow: 10px -4px 22px 11px rgba(255, 255, 255, 0.91);
+  -webkit-box-shadow: 10px -4px 22px 11px rgba(255, 255, 255, 0.91);
+  -moz-box-shadow: 10px -4px 22px 11px rgba(255, 255, 255, 0.91);
+  color: black;
+  background-color: wheat;
+}
+
+.navbar-menu {
+  display: flex;
+}
