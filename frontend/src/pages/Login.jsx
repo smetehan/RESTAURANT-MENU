@@ -33,7 +33,7 @@ const Login = () => {
                     handleSubmit(
                       login({
                         username: "1",
-                        password: "170317Sa**.",
+                        password: "1923Tc**.",
                         email: "masa_1@masa.com",
                       })
                     )
