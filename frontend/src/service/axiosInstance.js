@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://metehan.pythonanywhere.com/";
+const BASE_URL = "http://metehan.pythonanywhere.com/";
 
 //* Token'siz api istekleri icin bir instance olustur.
 export const axiosPublic = axios.create({
